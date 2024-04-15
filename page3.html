@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jersey+10+Charted&display=swap" rel="stylesheet">
+       
+      <script>
+        const storedusername =localStorage.getItem('username');
+            console.log(storedusername);
+      
+
+
+      </script>
+
+        <style>
+            body{
+             padding: 0%;
+             margin: 0px;
+             font-family: roboto;
+            }
+            .logo{
+              flex: 1;
+                height: 40px;
+                display: inline-block;
+                margin-right: 15px;
+                margin-bottom: 0px;
+                
+            }
+            .logo1{
+               font-family: roboto;
+               font-weight: 500;
+                margin-top: 15px;
+                margin-left: 5px;
+                font-size: 15px;
+                color: grey;
+                margin-bottom: 0px;
+               
+                
+               
+            }
+            .header{
+                font-size: 27px;
+                font-weight: 600;
+                margin-top: 50px;
+                margin-bottom: 10px;
+            text-align: center;
+          ;}
+            
+            img{
+                
+                margin-top: 0px;
+            }
+           .email
+           {
+            margin-left: 50px;
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+          
+           }
+           .logoo{
+            display: flex;
+            justify-content: center;
+           }
+           .lowersection{
+            background-color: rgba(231, 231, 231, 0.648);
+            height: 30vh;
+            padding-top: 2px;
+            padding-left: 10px ;
+            display: flex;
+           }
+           
+
+           .uppersection{
+            
+            height: 70vh;
+           
+           }
+          .container1{
+            flex: 1;
+            display: inline-block;
+           margin-right: 10px;
+          }
+          .container1{
+            margin-top: 4px;
+          }
+          .upperleft{
+            
+            margin-right: 500px;
+          }
+         
+          .header1{
+            display: flex;
+            margin-bottom: 0px;
+           
+          }
+          .leftheader{
+            flex: 2;
+            display: flex;
+            margin-bottom: 0px;
+            
+          }
+          .lhitems{
+            flex: 1;
+            ;
+          }
+          .rightheader{
+            flex: 1;
+            display: flex;
+            margin-right: 25px;
+            text-align: right;
+            
+           
+          }
+        </style>
+    </head>
+    <body>
+      <div class="uppersection" >
+        <div class="header1">
+                <div class="leftheader">
+                  <div class="lhitems">
+                    <p class="logo1" style=" font-family: 'jersey 10 charted';
+                    font-size: 30px; color: rgb(53, 53, 53); margin-top: 5px;
+                  " > Streamflix</p>
+                  </div>
+                  <div class="lhitems">
+                    <p class="logo1"> Streamflix</p>
+                  </div>
+                  <div class="lhitems">
+                    <p class="logo1"> Streamflix</p>
+                  </div>
+                  <div class="lhitems">
+                    <p class="logo1"> Streamflix</p>
+                  </div>
+                  <div class="lhitems">
+                    <p class="logo1"> Streamflix</p>
+                  </div>
+                </div>
+           <div class="rightheader">
+                    <div class="lhitems" style="margin-right: 0px;" >
+                      <input type="text" placeholder="Search" style="height: 24px;
+                      margin-top: 9px;
+                      border: none;
+                      border-radius: 5px;
+                      background-color: rgba(228, 228, 228, 0.772);
+                      box-shadow: 1px 1px 1px;
+                      margin-left: 5px;
+                      text-align: center;
+                      margin-right: 0px;">
+
+                    
+                    
+                     <button style="height: 25px;
+                     margin-right: 0px;
+                     margin-top: 9px;
+                     border: none;
+                     border-radius: 5px;
+                     background-color: rgba(228, 228, 228, 0.772);
+                     box-shadow: 1px 1px 1px;
+                     ">&#128269;</button> </div>
+                    <button style="font-weight: bold;
+                      font-size: 25px;
+                      text-align: center;
+                      padding-bottom: 5px;
+                     margin-left: 25px;
+                      padding: 0%;
+                      border: none;
+                      display: block;
+                      background-color: rgb(242, 40, 144);
+                      color: rgb(255, 255, 255);
+                      font-family: roboto;  
+                      height: 30px;
+                      width: 30px;
+                      margin-top: 9px;
+                      border-radius: 30px;
+                      text-decoration: none;
+                      " ;">+</button>
+                      <p style="font-size: 25px; margin-top: 5px;
+                      margin-bottom: 0%;
+                      margin-left: 10px;">
+                        &#9776;
+                      </p>
+                 
+           </div>
+          </div>
+           <hr style="margin-top: 10px; color: rgb(157, 157, 157);">
+              <p class="header">
+          Please verify your email.
+      </p><div class="logoo">
+      <img src="download (1).png"></div>
+      <p style="text-align: center;">
+          Please verify your email address. we've sent a conformation email to
+      </p>
+      
+        <div class="email" id="c">
+       
+        </div>
+        <div class="logoo">
+          <p style="text-align: center; width: 500px; font-size: 12px;">
+            Didnt recieve email? Check your spam folder. If you still dont see it, you can <a href="page1" style="color: rgb(155, 1, 198); text-decoration: none;">resend the email.</a> </p>
+        </div>
+   </div>
+      </div>
+        <div class="lowersection">
+         
+
+           <div class="container1">
+            <div class="title"> <p class="logo1" style=" font-family: 'jersey 10 charted';
+              font-size: 30px; color: rgb(53, 53, 53); font-size: 20px; margin-top: 3px;
+             ">Streamflix</p></div>
+             <div class="misc">
+              <p class="misctxt" style="font-size: 10px; color: grey;">
+                streamflix is world leading ott platform that allows you to watch free content freely around the world
+    
+               </p>
+             </div>
+           </div>
+           <div class="container1">
+              <div class="title" style="font-size: 12px; font-weight: bold;">
+              For creators
+              </div>
+              <div class="misc">
+                <p class="misctxt" style="font-size: 10px; color: grey;">
+                Go pro</p>
+                <p class="misctxt" style="font-size: 10px;color: grey;">
+                Explore the design work</p>
+                <p class="misctxt" style="font-size: 10px; color: grey;">
+                 Design blog</p>
+                <p class="misctxt" style="font-size: 10px; color: grey;">
+                 Overtime podcast</p>
+                <p class="misctxt" style="font-size: 10px; color: grey;">
+                Code of conduct</p>
+              </div>
+           </div>
+           <div class="container1">
+            <div class="title" style="font-size: 12px; font-weight: bold;">
+            For creators
+            </div>
+            <div class="misc">
+              <p class="misctxt" style="font-size: 10px; color: grey;">
+              Go pro</p>
+              <p class="misctxt" style="font-size: 10px;color: grey;">
+              Explore the design work</p>
+              <p class="misctxt" style="font-size: 10px; color: grey;">
+               Design blog</p>
+              <p class="misctxt" style="font-size: 10px; color: grey;">
+               Overtime podcast</p>
+              <p class="misctxt" style="font-size: 10px; color: grey;">
+              Code of conduct</p>
+            </div>
+         </div>
+         <div class="container1">
+          <div class="title" style="font-size: 12px; font-weight: bold;">
+          For creators
+          </div>
+          <div class="misc">
+            <p class="misctxt" style="font-size: 10px; color: grey;">
+            Go pro</p>
+            <p class="misctxt" style="font-size: 10px;color: grey;">
+            Explore the design work</p>
+            <p class="misctxt" style="font-size: 10px; color: grey;">
+             Design blog</p>
+            <p class="misctxt" style="font-size: 10px; color: grey;">
+             Overtime podcast</p>
+            <p class="misctxt" style="font-size: 10px; color: grey;">
+            Code of conduct</p>
+          </div>
+       </div>
+       <div class="container1">
+        <div class="title" style="font-size: 12px; font-weight: bold;">
+        For creators
+        </div>
+        <div class="misc">
+          <p class="misctxt" style="font-size: 10px; color: grey;">
+          Go pro</p>
+          <p class="misctxt" style="font-size: 10px;color: grey;">
+          Explore the design work</p>
+          <p class="misctxt" style="font-size: 10px; color: grey;">
+           Design blog</p>
+          <p class="misctxt" style="font-size: 10px; color: grey;">
+           Overtime podcast</p>
+          <p class="misctxt" style="font-size: 10px; color: grey;">
+          Code of conduct</p>
+        </div>
+     </div>
+     
+        </div>  
+       
+
+    </body>
+
+
+    <script defer>
+      const storedemail= localStorage.getItem('useremail')
+       
+     let div= document.createElement("div");
+     let textnode= document.createTextNode(storedemail);
+     div.appendChild(textnode);
+     console.log(div);
+     let containerdiv= document.getElementById('c');
+     console.log(containerdiv)
+    containerdiv.appendChild(div);
+     console.log(containerdiv);
+     
+
+  </script>
+</html>
